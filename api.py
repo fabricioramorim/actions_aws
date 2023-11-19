@@ -15,8 +15,18 @@ def generate_random_string(length=10):
 def info():
     data = {
         "name": "Convertal API",
+        "author": "Fabricio Amorim",
         "version": "1.0.0",
         "description": "API Beta for Convertal, a free online image converter",
+        "formats": [
+            "png",
+            "jpg",
+            "gif",
+            "bmp",
+            "tiff",
+            "ico",
+            "webp"
+        ]
     }
     return jsonify(data)
 
