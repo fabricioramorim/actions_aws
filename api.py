@@ -17,7 +17,7 @@ def info():
         "name": "Convertal API",
         "author": "Fabricio Amorim",
         "version": "1.0.0",
-        "description": "API Beta for Convertal, a free online image converter",
+        "description": "API Beta for Convertal, a free online image converter.",
         "formats": [
             "png",
             "jpg",
