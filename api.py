@@ -30,7 +30,7 @@ def info():
     }
     return jsonify(data)
 
-# Route to convert images to PNG
+# Route to convert images to PNG 
 @app.route('/convert/png', methods=['POST'])
 def convert_to_png():
     files = request.files.getlist('file')
